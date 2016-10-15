@@ -1,1 +1,1 @@
-Will explain why test case is demonstrating bug, explain why outcome on target is a violation of the specification
+This test case shows that the server fails to recognize legally formatted white space around punctuation.
