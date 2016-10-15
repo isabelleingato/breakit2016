@@ -1,1 +1,1 @@
-f
+This test case shows that keywords for some optional features are not excluded (reserved) including the keyword "equal". The server is incorrectly allowing us to create program variables named for these reserved keywords.
