@@ -1,0 +1,11 @@
+{
+	"type": "security",
+	"target_team": 972,
+	"arguments": {
+		     "argv": ["%PORT%"],
+		     "base64": false
+	},
+	"programs": [
+		{"program": "as principal iam password \"iam\" do \n ***"}
+	]
+}
