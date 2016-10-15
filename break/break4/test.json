@@ -1,0 +1,12 @@
+{
+	"type": "correctness",
+	"target_team": 972,
+	"arguments": {
+		     "argv": ["%PORT%"],
+		     "base64": false
+	},
+	"programs": [
+		{"program": "as principal admin password \"admin\" do \n create principal alice \"alice\" \n set x = \"x\" \n set delegation x admin delegate -> alice \n ***"},
+		{"program": "as principal alice password \"alice\" do \n set delegation x alice read -> alice \n return x \n ***"}
+	]
+}

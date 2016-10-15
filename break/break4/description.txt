@@ -1,0 +1,1 @@
+This test case shows a stack overflow error causes a crash when attempting to determine if a user has a right when we allow a user with delegate permissions to delegate other permissions such as "read" and "write" to themself.
