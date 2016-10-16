@@ -1,0 +1,1 @@
+This test case show that the server is not outputting the correct status code when the command to exit is given. As per the doc, the server should output the status code (EXITING) and close the connection. But, this server just closes the connection without outputting the status.
