@@ -1,1 +1,0 @@
-This test case demonstrates that set does not properly update the value of a local variable.
