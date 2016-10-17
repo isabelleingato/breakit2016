@@ -1,11 +1,12 @@
 {
-    "type": "correctness",
-    "target_team": 911,
+    "type": "crash",
+    "target_team": 918,
     "arguments": {
         "argv": ["%PORT%"],
         "base64": false
     },
     "programs": [
-        {"program": "as principal admin password \"password\" do\ncreate principal alice \"alices_password\"\n***", "base64": false}
+        {"program": "as principal admin password \"password\" do\nset x = \"x\"\nreturn x\n***", "base64": false},
+        {"program": "as principal admin password \"password\" do\nreturn x\n***"}
     ]
 }
