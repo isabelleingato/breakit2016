@@ -1,0 +1,1 @@
+The test case shows that the the server does not correctly execute actions as admin and returns a status:failed message.
